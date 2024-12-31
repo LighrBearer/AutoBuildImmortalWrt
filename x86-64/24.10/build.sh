@@ -30,9 +30,10 @@ PACKAGES="$PACKAGES luci-i18n-rclone-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
-PACKAGES="$PACKAGES Go-WebDAV"
+PACKAGES="$PACKAGES luci-i18n-rclone-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
