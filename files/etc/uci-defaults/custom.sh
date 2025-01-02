@@ -33,9 +33,6 @@ uci delete ttyd.@ttyd[0].interface
 uci set dropbear.@dropbear[0].Interface=''
 uci commit
 
-# 宽带账号
-pppoe_username="a8736522"
-pppoe_password="a123456"
 
 # 设置编译作者信息
 FILE_PATH="/etc/openwrt_release"
