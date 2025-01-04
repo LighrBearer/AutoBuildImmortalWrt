@@ -30,7 +30,6 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 
 
