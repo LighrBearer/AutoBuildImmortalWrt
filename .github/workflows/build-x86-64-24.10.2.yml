@@ -6,7 +6,7 @@ on:
       custom_router_ip:
         description: "请设置路由器的管理地址(仅对多网口路由器有效) 格式:192.168.x.1 或 10.x.x.1"
         required: true
-        default: "192.168.100.1"
+        default: "192.168.1.100"
       profile:
         description: '请输入要编译固件大小 单位(MB)'
         required: true
@@ -15,7 +15,7 @@ on:
         description: |
           是否编译 Docker 插件
         required: true
-        default: 'yes'
+        default: 'no'
         type: choice
         options:
           - 'yes'
@@ -23,16 +23,16 @@ on:
       enable_pppoe:
         description: "是否配置PPPoE拨号信息?"
         required: true
-        default: 'no'
+        default: 'yes'
         type: choice
         options:
         - 'yes'
         - 'no'
       pppoe_account:
-        description: "宽带账号 (若启用PPPoE)"
+        description: "a8736522"
         required: false
       pppoe_password:
-        description: "宽带密码 (若启用PPPoE)"
+        description: "a123456"
         required: false
 
 jobs:
@@ -90,7 +90,7 @@ jobs:
 
           - 🏠 **后台地址**: ${{ github.event.inputs.custom_router_ip }}
           - 👤 **用户名**: root
-          - 🔑 **密码**: 无
+          - 🔑 **密码**: Play.674100.top
           EOF
 
           if [ "${{ github.event.inputs.include_docker }}" == "yes" ]; then
