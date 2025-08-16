@@ -29,10 +29,10 @@ on:
         - 'yes'
         - 'no'
       pppoe_account:
-        description: "a8736522"
+        description: "宽带账号 (若启用PPPoE)"
         required: false
       pppoe_password:
-        description: "a123456"
+        description: "宽带密码 (若启用PPPoE)"
         required: false
 
 jobs:
